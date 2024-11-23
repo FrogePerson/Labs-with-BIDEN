@@ -1,0 +1,4 @@
+﻿  Cache.cpp
+C:\Users\GF\source\repos\Cache\Cache\Cache.cpp(83,29): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\GF\source\repos\Cache\Cache\Cache.cpp(84,28): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  Cache.vcxproj -> C:\Users\GF\source\repos\Cache\x64\Debug\Cache.exe

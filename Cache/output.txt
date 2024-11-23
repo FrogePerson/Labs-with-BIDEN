@@ -1,0 +1,69 @@
+  investigaion:
+    travel_order: "front"
+    experiments:
+    - experiment: 0
+        input_data:
+          buffer_size: "640Kb"
+        results:
+          duration: "29ms"
+    - experiment: 1
+        input_data:
+          buffer_size: "1280Kb"
+        results:
+          duration: "62ms"
+    - experiment: 2
+        input_data:
+          buffer_size: "20480Kb"
+        results:
+          duration: "1830ms"
+    - experiment: 3
+        input_data:
+          buffer_size: "32768Kb"
+        results:
+          duration: "3661ms"
+  investigaion:
+    travel_order: "reverse"
+    experiments:
+    - experiment: 4
+        input_data:
+          buffer_size: "640Kb"
+        results:
+          duration: "31ms"
+    - experiment: 5
+        input_data:
+          buffer_size: "1280Kb"
+        results:
+          duration: "64ms"
+    - experiment: 6
+        input_data:
+          buffer_size: "20480Kb"
+        results:
+          duration: "1840ms"
+    - experiment: 7
+        input_data:
+          buffer_size: "32768Kb"
+        results:
+          duration: "2917ms"
+  investigaion:
+    travel_order: "random"
+    experiments:
+    - experiment: 8
+        input_data:
+          buffer_size: "640Kb"
+        results:
+          duration: "96ms"
+    - experiment: 9
+        input_data:
+          buffer_size: "1280Kb"
+        results:
+          duration: "201ms"
+    - experiment: 10
+        input_data:
+          buffer_size: "20480Kb"
+        results:
+          duration: "11220ms"
+    - experiment: 11
+        input_data:
+          buffer_size: "32768Kb"
+        results:
+          duration: "18414ms"
